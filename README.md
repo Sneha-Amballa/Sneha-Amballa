@@ -26,7 +26,7 @@
 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,html,css,js,react,nodejs,express,mysql,mongodb,git,github,postman,vscode&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,react,nodejs,express,mysql,mongodb,git,github,postman,vscode&perline=8" />
 </p>
 
 <p align="center">
@@ -67,10 +67,6 @@
 
 ---
 
-<!-- ================= TROPHIES ================= -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sneha-Amballa&theme=onedark&margin-w=10" />
-</p>
 
 
 ---
