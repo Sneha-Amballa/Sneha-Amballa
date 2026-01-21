@@ -69,8 +69,9 @@
 
 <!-- ================= TROPHIES ================= -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sneha-Amballa&theme=onedark&no-bg=true&no-frame=true&row=1&column=5" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Sneha-Amballa&theme=onedark&margin-w=10" />
 </p>
+
 
 ---
 
@@ -83,7 +84,7 @@
   <a href="https://github.com/Sneha-Amballa">
     <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/yourprofile">
+  <a href="https://www.linkedin.com/in/sneha-amballa-147646308/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
