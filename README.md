@@ -20,18 +20,19 @@
   <img alt="github contribution grid snake animation" src="https://github.com/Sneha-Amballa/Sneha-Amballa/blob/output/github-contribution-grid-snake.svg">
 </picture>
 
----
 
 <!-- ================= TECH STACK ================= -->
-<h2 align="center">
-  🧰 Tech Stack
-</h2>
+<h2 align="center">🧰 Tools & Technologies</h2>
+
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pandas,git,github,vscode,html,css,js,mysql,json,md&perline=6" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,html,css,js,react,nodejs,express,mysql,mongodb,git,github,postman,vscode&perline=8" />
 </p>
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pandas,matplotlib,json,md&perline=8" />
+</p>
+
 
 <!-- ================= STATS (DARK / LIGHT TOGGLE) ================= -->
 <h2 align="center">
