@@ -29,10 +29,6 @@
   <img src="https://skillicons.dev/icons?i=python,html,css,js,react,nodejs,express,mysql,mongodb,git,github,postman,vscode&perline=8" />
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=pandas,matplotlib,json,md&perline=8" />
-</p>
-
 
 <!-- ================= STATS (DARK / LIGHT TOGGLE) ================= -->
 <h2 align="center">
