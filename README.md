@@ -1,3 +1,75 @@
+<!-- ================= THEME TOGGLE ================= -->
+<div align="center" style="margin-bottom: 20px;">
+  <button id="themeToggle" style="
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid #5B86E5;
+    background-color: transparent;
+    color: #5B86E5;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  " onclick="toggleTheme()">
+    🌙 Dark Mode
+  </button>
+</div>
+
+<style>
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #f6f8fa;
+  }
+  
+  body.dark-mode {
+    --bg-color: #0d1117;
+    --text-color: #ffffff;
+    --card-bg: #161b22;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+</style>
+
+<script>
+  function toggleTheme() {
+    const body = document.body;
+    const button = document.getElementById('themeToggle');
+    const isDarkMode = body.classList.toggle('dark-mode');
+    
+    // Save preference to localStorage
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    
+    // Update button text and styling
+    if (isDarkMode) {
+      button.textContent = '☀️ Light Mode';
+      button.style.backgroundColor = '#5B86E5';
+      button.style.color = '#ffffff';
+    } else {
+      button.textContent = '🌙 Dark Mode';
+      button.style.backgroundColor = 'transparent';
+      button.style.color = '#5B86E5';
+    }
+  }
+  
+  // Load saved theme preference on page load
+  window.addEventListener('DOMContentLoaded', function() {
+    const savedTheme = localStorage.getItem('theme');
+    const button = document.getElementById('themeToggle');
+    
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+      button.textContent = '☀️ Light Mode';
+      button.style.backgroundColor = '#5B86E5';
+      button.style.color = '#ffffff';
+    }
+  });
+</script>
+
 <!-- ================= HEADER ================= -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=A.%20Sneha&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
